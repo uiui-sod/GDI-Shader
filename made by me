@@ -1,0 +1,4 @@
+rgbScreen[i].rgb+=x|y*(i&(x+y))
+rgbScreen[i].rgb+=x|y&x*i
+rgbScreen[i].rgb+=x>>y<<x*i
+rgbScreen[i].rgb+=(x&x+y*114^x>>y)%(RGB(255,255,255))
